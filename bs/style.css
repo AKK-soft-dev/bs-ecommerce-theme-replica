@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --bs-body-font-size: 0.875rem !important;
+  --bs-body-font-weight: 500;
+}
+
+#hero-img {
+  margin-top: -10.5rem;
+}
+
+.fs-6 {
+  font-size: 0.875rem !important;
+}
+
+.btn-success {
+  --bs-btn-bg: #0aad0a;
+  --bs-btn-border-color: #0aad0a;
+}
+
+.text-success {
+  --bs-success-rgb: 10, 173, 10;
+}
+
+.custom-py {
+  padding-top: 3rem !important;
+  padding-bottom: 14rem !important;
+}
+
+@media screen and (min-width: 768px) {
+  .custom-py {
+    padding-top: 8.5rem !important;
+    padding-bottom: 25rem !important;
+  }
+  #hero-img {
+    margin-top: -21.875rem;
+  }
+}
